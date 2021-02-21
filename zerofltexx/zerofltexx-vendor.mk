@@ -108,6 +108,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/zerofltexx/proprietary/lib/hw/sensors.universal7420.so:$(TARGET_COPY_OUT_SYSTEM)/lib/hw/sensors.universal7420.so \
     vendor/samsung/zerofltexx/proprietary/lib/libexynoscamera.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libexynoscamera.so \
     vendor/samsung/zerofltexx/proprietary/lib/libexynoscamera3.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libexynoscamera3.so \
+    vendor/samsung/zerofltexx/proprietary/lib/libfloatingfeature.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libfloatingfeature.so \
     vendor/samsung/zerofltexx/proprietary/lib/libhwjpeg.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libhwjpeg.so \
     vendor/samsung/zerofltexx/proprietary/lib/libprotobuf-cpp-fl24.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libprotobuf-cpp-fl24.so \
     vendor/samsung/zerofltexx/proprietary/vendor/lib/libsec-ril-dsds.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsec-ril-dsds.so \
@@ -122,6 +123,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/zerofltexx/proprietary/lib64/hw/sensors.universal7420.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/hw/sensors.universal7420.so \
     vendor/samsung/zerofltexx/proprietary/lib64/libexynoscamera.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libexynoscamera.so \
     vendor/samsung/zerofltexx/proprietary/lib64/libexynoscamera3.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libexynoscamera3.so \
+    vendor/samsung/zerofltexx/proprietary/lib64/libfloatingfeature.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libfloatingfeature.so \
     vendor/samsung/zerofltexx/proprietary/lib64/libhwjpeg.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libhwjpeg.so \
     vendor/samsung/zerofltexx/proprietary/lib64/libprotobuf-cpp-fl24.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libprotobuf-cpp-fl24.so \
     vendor/samsung/zerofltexx/proprietary/vendor/lib64/libsec-ril-dsds.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsec-ril-dsds.so \
@@ -129,11 +131,11 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/zerofltexx/proprietary/lib64/libsensorlistener.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libsensorlistener.so \
     vendor/samsung/zerofltexx/proprietary/lib64/libuniplugin.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libuniplugin.so \
     vendor/samsung/zerofltexx/proprietary/lib64/libwrappergps.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libwrappergps.so \
-    vendor/samsung/zerofltexx/proprietary/vendor/firmware/bcm4358A3_V0096.0162.hcd:$(TARGET_COPY_OUT_VENDOR)/firmware/bcm4358A3_V0096.0162.hcd \
-    vendor/samsung/zerofltexx/proprietary/vendor/firmware/bcm4358A3_V0096.0162_murata.hcd:$(TARGET_COPY_OUT_VENDOR)/firmware/bcm4358A3_V0096.0162_murata.hcd \
-    vendor/samsung/zerofltexx/proprietary/vendor/firmware/bcm4358A3_V0096.0162_semco.hcd:$(TARGET_COPY_OUT_VENDOR)/firmware/bcm4358A3_V0096.0162_semco.hcd \
-    vendor/samsung/zerofltexx/proprietary/vendor/firmware/bcm4358A3_V0096.0162_semco3rd.hcd:$(TARGET_COPY_OUT_VENDOR)/firmware/bcm4358A3_V0096.0162_semco3rd.hcd \
-    vendor/samsung/zerofltexx/proprietary/vendor/firmware/bcm4358A3_V0096.0162_wisol.hcd:$(TARGET_COPY_OUT_VENDOR)/firmware/bcm4358A3_V0096.0162_wisol.hcd \
+    vendor/samsung/zerofltexx/proprietary/vendor/firmware/bcm4358A3_V0083.0138.hcd:$(TARGET_COPY_OUT_VENDOR)/firmware/bcm4358A3_V0083.0138.hcd \
+    vendor/samsung/zerofltexx/proprietary/vendor/firmware/bcm4358A3_V0083.0138_murata.hcd:$(TARGET_COPY_OUT_VENDOR)/firmware/bcm4358A3_V0083.0138_murata.hcd \
+    vendor/samsung/zerofltexx/proprietary/vendor/firmware/bcm4358A3_V0083.0138_semco.hcd:$(TARGET_COPY_OUT_VENDOR)/firmware/bcm4358A3_V0083.0138_semco.hcd \
+    vendor/samsung/zerofltexx/proprietary/vendor/firmware/bcm4358A3_V0083.0138_semco3rd.hcd:$(TARGET_COPY_OUT_VENDOR)/firmware/bcm4358A3_V0083.0138_semco3rd.hcd \
+    vendor/samsung/zerofltexx/proprietary/vendor/firmware/bcm4358A3_V0083.0138_wisol.hcd:$(TARGET_COPY_OUT_VENDOR)/firmware/bcm4358A3_V0083.0138_wisol.hcd \
     vendor/samsung/zerofltexx/proprietary/vendor/firmware/companion_2p2_master_setfile.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/companion_2p2_master_setfile.bin \
     vendor/samsung/zerofltexx/proprietary/vendor/firmware/companion_2p2_mode_setfile.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/companion_2p2_mode_setfile.bin \
     vendor/samsung/zerofltexx/proprietary/vendor/firmware/companion_fw_2p2_evt1.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/companion_fw_2p2_evt1.bin \
