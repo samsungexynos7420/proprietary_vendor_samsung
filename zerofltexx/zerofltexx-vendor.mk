@@ -9,6 +9,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/zerofltexx/proprietary/bin/gps.cer:$(TARGET_COPY_OUT_SYSTEM)/bin/gps.cer \
     vendor/samsung/zerofltexx/proprietary/bin/gpsd:$(TARGET_COPY_OUT_SYSTEM)/bin/gpsd \
     vendor/samsung/zerofltexx/proprietary/bin/lhd:$(TARGET_COPY_OUT_SYSTEM)/bin/lhd \
+    vendor/samsung/zerofltexx/proprietary/bin/cbd:$(TARGET_COPY_OUT_SYSTEM)/bin/cbd \
     vendor/samsung/zerofltexx/proprietary/etc/firmware/clearwater-dsp3-tx-nb.bin:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/clearwater-dsp3-tx-nb.bin \
     vendor/samsung/zerofltexx/proprietary/etc/firmware/clearwater-dsp3-tx-swb-interview.bin:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/clearwater-dsp3-tx-swb-interview.bin \
     vendor/samsung/zerofltexx/proprietary/etc/firmware/clearwater-dsp3-tx-wb.bin:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/clearwater-dsp3-tx-wb.bin \
