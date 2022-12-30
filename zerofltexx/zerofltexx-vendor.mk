@@ -170,6 +170,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/zerofltexx/proprietary/vendor/lib64/libsec-ril.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsec-ril.so \
     vendor/samsung/zerofltexx/proprietary/lib/libexynosdisplay.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libexynosdisplay.so \
     vendor/samsung/zerofltexx/proprietary/lib/libhwcutils.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libhwcutils.so \
+    vendor/samsung/zerofltexx/proprietary/lib/libcsc.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libcsc.so \
+    vendor/samsung/zerofltexx/proprietary/lib/libcec.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libcec.so \
     vendor/samsung/zerofltexx/proprietary/lib/libexynosgscaler.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libexynosgscaler.so \
     vendor/samsung/zerofltexx/proprietary/lib/libexynosscaler.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libexynosscaler.so \
     vendor/samsung/zerofltexx/proprietary/lib/libexynosutils.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libexynosutils.so \
@@ -191,4 +193,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/zerofltexx/proprietary/lib64/libmpp.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libmpp.so \
     vendor/samsung/zerofltexx/proprietary/lib64/libaptX_encoder.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libaptX_encoder.so \
     vendor/samsung/zerofltexx/proprietary/lib64/libagc_max.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libagc_max.so \
-    vendor/samsung/zerofltexx/proprietary/lib64/libhr.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libhr.so 
+    vendor/samsung/zerofltexx/proprietary/lib64/libhr.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libhr.so \
+    vendor/samsung/zerofltexx/proprietary/lib64/libcsc.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libcsc.so \
+    vendor/samsung/zerofltexx/proprietary/lib64/libcec.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libcec.so 
