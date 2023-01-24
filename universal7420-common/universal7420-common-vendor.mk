@@ -94,6 +94,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/universal7420-common/proprietary/lib/hw/camera.exynos5.so:$(TARGET_COPY_OUT_SYSTEM)/lib/hw/camera.exynos5.so \
     vendor/samsung/universal7420-common/proprietary/lib/hw/consumerir.exynos5.so:$(TARGET_COPY_OUT_SYSTEM)/lib/hw/consumerir.exynos5.so \
     vendor/samsung/universal7420-common/proprietary/lib/hw/hwcomposer.exynos5.so:$(TARGET_COPY_OUT_SYSTEM)/lib/hw/hwcomposer.exynos5.so \
+    vendor/samsung/universal7420-common/proprietary/lib/hw/sensorhubs.universal7420.so:$(TARGET_COPY_OUT_SYSTEM)/lib/hw/sensorhubs.universal7420.so \
     vendor/samsung/universal7420-common/proprietary/lib/hw/sensors.universal7420.so:$(TARGET_COPY_OUT_SYSTEM)/lib/hw/sensors.universal7420.so \
     vendor/samsung/universal7420-common/proprietary/lib/libExynosOMX_Core.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libExynosOMX_Core.so \
     vendor/samsung/universal7420-common/proprietary/lib/libExynosOMX_Resourcemanager.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libExynosOMX_Resourcemanager.so \
@@ -133,6 +134,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/universal7420-common/proprietary/lib64/hw/consumerir.exynos5.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/hw/consumerir.exynos5.so \
     vendor/samsung/universal7420-common/proprietary/lib64/hw/gps.default.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/hw/gps.default.so \
     vendor/samsung/universal7420-common/proprietary/lib64/hw/hwcomposer.exynos5.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/hw/hwcomposer.exynos5.so \
+    vendor/samsung/universal7420-common/proprietary/lib64/hw/sensorhubs.universal7420.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/hw/sensorhubs.universal7420.so \
     vendor/samsung/universal7420-common/proprietary/lib64/hw/sensors.universal7420.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/hw/sensors.universal7420.so \
     vendor/samsung/universal7420-common/proprietary/lib64/libExynosOMX_Core.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libExynosOMX_Core.so \
     vendor/samsung/universal7420-common/proprietary/lib64/libExynosOMX_Resourcemanager.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libExynosOMX_Resourcemanager.so \
