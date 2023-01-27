@@ -42,14 +42,14 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/zerofltexx/proprietary/lib/libbauthserver.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libbauthserver.so \
     vendor/samsung/zerofltexx/proprietary/lib/libbauthtzcommon.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libbauthtzcommon.so \
     vendor/samsung/zerofltexx/proprietary/lib/libegis_fp_normal_sensor_test.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libegis_fp_normal_sensor_test.so \
-    vendor/samsung/zerofltexx/proprietary/lib/libprotobuf-cpp-fl24.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libprotobuf-cpp-fl24.so \
+    vendor/samsung/zerofltexx/proprietary/lib/libprotobuf-cpp-fl26.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libprotobuf-cpp-fl26.so \
     vendor/samsung/zerofltexx/proprietary/vendor/lib/libsec-ril-dsds.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsec-ril-dsds.so \
     vendor/samsung/zerofltexx/proprietary/vendor/lib/libsec-ril.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsec-ril.so \
     vendor/samsung/zerofltexx/proprietary/lib/libsynaFpSensorTestNwd.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libsynaFpSensorTestNwd.so \
     vendor/samsung/zerofltexx/proprietary/lib64/libbauthserver.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libbauthserver.so \
     vendor/samsung/zerofltexx/proprietary/lib64/libbauthtzcommon.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libbauthtzcommon.so \
     vendor/samsung/zerofltexx/proprietary/lib64/libegis_fp_normal_sensor_test.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libegis_fp_normal_sensor_test.so \
-    vendor/samsung/zerofltexx/proprietary/lib64/libprotobuf-cpp-fl24.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libprotobuf-cpp-fl24.so \
+    vendor/samsung/zerofltexx/proprietary/lib64/libprotobuf-cpp-fl26.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libprotobuf-cpp-fl26.so \
     vendor/samsung/zerofltexx/proprietary/vendor/lib64/libsec-ril-dsds.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsec-ril-dsds.so \
     vendor/samsung/zerofltexx/proprietary/vendor/lib64/libsec-ril.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsec-ril.so \
     vendor/samsung/zerofltexx/proprietary/lib64/libsynaFpSensorTestNwd.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libsynaFpSensorTestNwd.so \
