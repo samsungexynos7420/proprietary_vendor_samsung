@@ -93,27 +93,14 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/universal7420-common/proprietary/lib/egl/libGLES_android.so:$(TARGET_COPY_OUT_SYSTEM)/lib/egl/libGLES_android.so \
     vendor/samsung/universal7420-common/proprietary/lib/hw/camera.exynos5.so:$(TARGET_COPY_OUT_SYSTEM)/lib/hw/camera.exynos5.so \
     vendor/samsung/universal7420-common/proprietary/lib/hw/consumerir.exynos5.so:$(TARGET_COPY_OUT_SYSTEM)/lib/hw/consumerir.exynos5.so \
-    vendor/samsung/universal7420-common/proprietary/lib/hw/hwcomposer.exynos5.so:$(TARGET_COPY_OUT_SYSTEM)/lib/hw/hwcomposer.exynos5.so \
     vendor/samsung/universal7420-common/proprietary/lib/hw/sensorhubs.universal7420.so:$(TARGET_COPY_OUT_SYSTEM)/lib/hw/sensorhubs.universal7420.so \
     vendor/samsung/universal7420-common/proprietary/lib/hw/sensors.universal7420.so:$(TARGET_COPY_OUT_SYSTEM)/lib/hw/sensors.universal7420.so \
     vendor/samsung/universal7420-common/proprietary/lib/libExynosOMX_Core.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libExynosOMX_Core.so \
     vendor/samsung/universal7420-common/proprietary/lib/libExynosOMX_Resourcemanager.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libExynosOMX_Resourcemanager.so \
-    vendor/samsung/universal7420-common/proprietary/lib/libcec.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libcec.so \
-    vendor/samsung/universal7420-common/proprietary/lib/libcsc.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libcsc.so \
     vendor/samsung/universal7420-common/proprietary/lib/libexynoscamera.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libexynoscamera.so \
     vendor/samsung/universal7420-common/proprietary/lib/libexynoscamera3.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libexynoscamera3.so \
-    vendor/samsung/universal7420-common/proprietary/lib/libexynosdisplay.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libexynosdisplay.so \
-    vendor/samsung/universal7420-common/proprietary/lib/libexynosgscaler.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libexynosgscaler.so \
-    vendor/samsung/universal7420-common/proprietary/lib/libexynosscaler.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libexynosscaler.so \
-    vendor/samsung/universal7420-common/proprietary/lib/libexynosutils.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libexynosutils.so \
-    vendor/samsung/universal7420-common/proprietary/lib/libexynosv4l2.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libexynosv4l2.so \
-    vendor/samsung/universal7420-common/proprietary/lib/libfimg.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libfimg.so \
     vendor/samsung/universal7420-common/proprietary/lib/libfloatingfeature.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libfloatingfeature.so \
-    vendor/samsung/universal7420-common/proprietary/lib/libhdmi.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libhdmi.so \
-    vendor/samsung/universal7420-common/proprietary/lib/libhwcutils.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libhwcutils.so \
     vendor/samsung/universal7420-common/proprietary/lib/libhwjpeg.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libhwjpeg.so \
-    vendor/samsung/universal7420-common/proprietary/lib/libion_exynos.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libion_exynos.so \
-    vendor/samsung/universal7420-common/proprietary/lib/libmpp.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libmpp.so \
     vendor/samsung/universal7420-common/proprietary/lib/libsensorlistener.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libsensorlistener.so \
     vendor/samsung/universal7420-common/proprietary/lib/libstagefright_hdcp.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libstagefright_hdcp.so \
     vendor/samsung/universal7420-common/proprietary/lib/libstagefrighthw.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libstagefrighthw.so \
@@ -133,29 +120,16 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/universal7420-common/proprietary/lib64/hw/camera.exynos5.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/hw/camera.exynos5.so \
     vendor/samsung/universal7420-common/proprietary/lib64/hw/consumerir.exynos5.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/hw/consumerir.exynos5.so \
     vendor/samsung/universal7420-common/proprietary/lib64/hw/gps.default.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/hw/gps.default.so \
-    vendor/samsung/universal7420-common/proprietary/lib64/hw/hwcomposer.exynos5.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/hw/hwcomposer.exynos5.so \
     vendor/samsung/universal7420-common/proprietary/lib64/hw/sensorhubs.universal7420.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/hw/sensorhubs.universal7420.so \
     vendor/samsung/universal7420-common/proprietary/lib64/hw/sensors.universal7420.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/hw/sensors.universal7420.so \
     vendor/samsung/universal7420-common/proprietary/lib64/libExynosOMX_Core.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libExynosOMX_Core.so \
     vendor/samsung/universal7420-common/proprietary/lib64/libExynosOMX_Resourcemanager.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libExynosOMX_Resourcemanager.so \
     vendor/samsung/universal7420-common/proprietary/lib64/libagc_max.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libagc_max.so \
-    vendor/samsung/universal7420-common/proprietary/lib64/libcec.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libcec.so \
-    vendor/samsung/universal7420-common/proprietary/lib64/libcsc.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libcsc.so \
     vendor/samsung/universal7420-common/proprietary/lib64/libexynoscamera.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libexynoscamera.so \
     vendor/samsung/universal7420-common/proprietary/lib64/libexynoscamera3.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libexynoscamera3.so \
-    vendor/samsung/universal7420-common/proprietary/lib64/libexynosdisplay.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libexynosdisplay.so \
-    vendor/samsung/universal7420-common/proprietary/lib64/libexynosgscaler.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libexynosgscaler.so \
-    vendor/samsung/universal7420-common/proprietary/lib64/libexynosscaler.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libexynosscaler.so \
-    vendor/samsung/universal7420-common/proprietary/lib64/libexynosutils.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libexynosutils.so \
-    vendor/samsung/universal7420-common/proprietary/lib64/libexynosv4l2.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libexynosv4l2.so \
-    vendor/samsung/universal7420-common/proprietary/lib64/libfimg.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libfimg.so \
     vendor/samsung/universal7420-common/proprietary/lib64/libfloatingfeature.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libfloatingfeature.so \
-    vendor/samsung/universal7420-common/proprietary/lib64/libhdmi.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libhdmi.so \
     vendor/samsung/universal7420-common/proprietary/lib64/libhr.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libhr.so \
-    vendor/samsung/universal7420-common/proprietary/lib64/libhwcutils.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libhwcutils.so \
     vendor/samsung/universal7420-common/proprietary/lib64/libhwjpeg.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libhwjpeg.so \
-    vendor/samsung/universal7420-common/proprietary/lib64/libion_exynos.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libion_exynos.so \
-    vendor/samsung/universal7420-common/proprietary/lib64/libmpp.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libmpp.so \
     vendor/samsung/universal7420-common/proprietary/lib64/libsensorlistener.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libsensorlistener.so \
     vendor/samsung/universal7420-common/proprietary/lib64/libstagefrighthw.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libstagefrighthw.so \
     vendor/samsung/universal7420-common/proprietary/lib64/libuniplugin.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libuniplugin.so \
