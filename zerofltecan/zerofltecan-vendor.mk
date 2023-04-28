@@ -39,6 +39,9 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/zerofltecan/proprietary/vendor/app/mcRegistry/fffffffff0000000000000000000001b.tlbin:$(TARGET_COPY_OUT_VENDOR)/app/mcRegistry/fffffffff0000000000000000000001b.tlbin \
     vendor/samsung/zerofltecan/proprietary/vendor/app/mcRegistry/fffffffff0000000000000000000001e.tlbin:$(TARGET_COPY_OUT_VENDOR)/app/mcRegistry/fffffffff0000000000000000000001e.tlbin \
     vendor/samsung/zerofltecan/proprietary/vendor/bin/mcDriverDaemon:$(TARGET_COPY_OUT_VENDOR)/bin/mcDriverDaemon \
+    vendor/samsung/zerofltecan/proprietary/etc/firmware/audience-es705-fw.bin:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/audience-es705-fw.bin \
+    vendor/samsung/zerofltecan/proprietary/etc/firmware/audience-es804-data.bin:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/audience-es804-data.bin \
+    vendor/samsung/zerofltecan/proprietary/etc/firmware/audience-es804-fw.bin:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/audience-es804-fw.bin \
     vendor/samsung/zerofltecan/proprietary/lib/libbauthserver.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libbauthserver.so \
     vendor/samsung/zerofltecan/proprietary/lib/libbauthtzcommon.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libbauthtzcommon.so \
     vendor/samsung/zerofltecan/proprietary/lib/libegis_fp_normal_sensor_test.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libegis_fp_normal_sensor_test.so \
