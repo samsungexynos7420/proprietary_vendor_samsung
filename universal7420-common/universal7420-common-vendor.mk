@@ -12,6 +12,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/universal7420-common/proprietary/vendor/bin/lhd:$(TARGET_COPY_OUT_VENDOR)/bin/lhd \
     vendor/samsung/universal7420-common/proprietary/bin/lpm:$(TARGET_COPY_OUT_SYSTEM)/bin/lpm \
     vendor/samsung/universal7420-common/proprietary/bin/move_widevine_data.sh:$(TARGET_COPY_OUT_SYSTEM)/bin/move_widevine_data.sh \
+    vendor/samsung/universal7420-common/proprietary/etc/firmware/audience-es705-fw.bin:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/audience-es705-fw.bin \
+    vendor/samsung/universal7420-common/proprietary/etc/firmware/audience-es804-fw.bin:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/audience-es804-fw.bin \
     vendor/samsung/universal7420-common/proprietary/etc/firmware/clearwater-dsp3-tx-nb.bin:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/clearwater-dsp3-tx-nb.bin \
     vendor/samsung/universal7420-common/proprietary/etc/firmware/clearwater-dsp3-tx-swb-interview.bin:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/clearwater-dsp3-tx-swb-interview.bin \
     vendor/samsung/universal7420-common/proprietary/etc/firmware/clearwater-dsp3-tx-wb.bin:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/clearwater-dsp3-tx-wb.bin \
