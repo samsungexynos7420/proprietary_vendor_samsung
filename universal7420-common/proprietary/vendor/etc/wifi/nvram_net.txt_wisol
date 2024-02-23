@@ -11,7 +11,7 @@ boardflags2=0x00002000
 boardflags3=0x48000109
 #boardnum=57410
 macaddr=00:90:4c:16:70:01
-ccode=GB
+ccode=ALL
 regrev=6
 antswitch=0
 pdgain5g=4
@@ -158,7 +158,7 @@ btcdyn_dsns_rows=1
 btcdyn_msw_row0=1,12,-70,-30,-90
 # --- desense switching data rows (max is 4) ---
 btcdyn_dsns_row0=5,4,0,-65,-65
-## 2G TX power compensation 
+## 2G TX power compensation
 powoffs2gtna0=4,3,2,1,0,-1,-1,-1,-1,0,1,2,3,0
 powoffs2gtna1=2,1,0,-1,-2,-3,-3,-2,-1,0,0,1,2,0
 rpcal2g=0x0a

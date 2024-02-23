@@ -142,6 +142,26 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/universal7420-common/proprietary/product/lib64/libaptX_encoder.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libaptX_encoder.so \
     vendor/samsung/universal7420-common/proprietary/vendor/bin/hw/android.hardware.drm@1.1-service.widevine:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.drm@1.1-service.widevine \
     vendor/samsung/universal7420-common/proprietary/vendor/etc/init/android.hardware.drm@1.1-service.widevine.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.drm@1.1-service.widevine.rc \
+    vendor/samsung/universal7420-common/proprietary/vendor/etc/wifi/.clminfo:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/.clminfo \
+    vendor/samsung/universal7420-common/proprietary/vendor/etc/wifi/bcmdhd_apsta.bin_b1:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/bcmdhd_apsta.bin_b1 \
+    vendor/samsung/universal7420-common/proprietary/vendor/etc/wifi/bcmdhd_apsta.bin_blob:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/bcmdhd_apsta.bin_blob \
+    vendor/samsung/universal7420-common/proprietary/vendor/etc/wifi/bcmdhd_clm.blob:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/bcmdhd_clm.blob \
+    vendor/samsung/universal7420-common/proprietary/vendor/etc/wifi/bcmdhd_ibss.bin_b1:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/bcmdhd_ibss.bin_b1 \
+    vendor/samsung/universal7420-common/proprietary/vendor/etc/wifi/bcmdhd_mfg.bin_b1:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/bcmdhd_mfg.bin_b1 \
+    vendor/samsung/universal7420-common/proprietary/vendor/etc/wifi/bcmdhd_mfg.bin_blob:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/bcmdhd_mfg.bin_blob \
+    vendor/samsung/universal7420-common/proprietary/vendor/etc/wifi/bcmdhd_mfg2.bin_b1:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/bcmdhd_mfg2.bin_b1 \
+    vendor/samsung/universal7420-common/proprietary/vendor/etc/wifi/bcmdhd_sta.bin_b1:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/bcmdhd_sta.bin_b1 \
+    vendor/samsung/universal7420-common/proprietary/vendor/etc/wifi/bcmdhd_sta.bin_blob:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/bcmdhd_sta.bin_blob \
+    vendor/samsung/universal7420-common/proprietary/vendor/etc/wifi/indoorchannel.info:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/indoorchannel.info \
+    vendor/samsung/universal7420-common/proprietary/vendor/etc/wifi/nvram.txt:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/nvram.txt \
+    vendor/samsung/universal7420-common/proprietary/vendor/etc/wifi/nvram_mfg.txt_b0:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/nvram_mfg.txt_b0 \
+    vendor/samsung/universal7420-common/proprietary/vendor/etc/wifi/nvram_mfg.txt_b1:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/nvram_mfg.txt_b1 \
+    vendor/samsung/universal7420-common/proprietary/vendor/etc/wifi/nvram_mfg.txt_murata_b1:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/nvram_mfg.txt_murata_b1 \
+    vendor/samsung/universal7420-common/proprietary/vendor/etc/wifi/nvram_mfg.txt_wisol_b1:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/nvram_mfg.txt_wisol_b1 \
+    vendor/samsung/universal7420-common/proprietary/vendor/etc/wifi/nvram_net.txt_b0:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/nvram_net.txt_b0 \
+    vendor/samsung/universal7420-common/proprietary/vendor/etc/wifi/nvram_net.txt_b1:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/nvram_net.txt_b1 \
+    vendor/samsung/universal7420-common/proprietary/vendor/etc/wifi/nvram_net.txt_murata_b1:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/nvram_net.txt_murata_b1 \
+    vendor/samsung/universal7420-common/proprietary/vendor/etc/wifi/nvram_net.txt_wisol_b1:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/nvram_net.txt_wisol_b1 \
     vendor/samsung/universal7420-common/proprietary/vendor/firmware/bcm4358A3_V0083.0138_murata.hcd:$(TARGET_COPY_OUT_VENDOR)/firmware/bcm4358A3_V0083.0138_murata.hcd \
     vendor/samsung/universal7420-common/proprietary/vendor/firmware/bcm4358A3_V0083.0138_semco.hcd:$(TARGET_COPY_OUT_VENDOR)/firmware/bcm4358A3_V0083.0138_semco.hcd \
     vendor/samsung/universal7420-common/proprietary/vendor/firmware/bcm4358A3_V0083.0138_semco3rd.hcd:$(TARGET_COPY_OUT_VENDOR)/firmware/bcm4358A3_V0083.0138_semco3rd.hcd \

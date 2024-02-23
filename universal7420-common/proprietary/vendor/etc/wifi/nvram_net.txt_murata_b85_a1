@@ -11,9 +11,9 @@ boardflags=0x12001001
 #enable eLNA both 2G/5G
 boardflags2=0x00002000
 boardflags3=0x48000109
-#boardnum=57410 
+#boardnum=57410
 macaddr=00:90:4c:16:70:01
-ccode=GB
+ccode=ALL
 regrev=6
 antswitch=0
 pdgain5g=4
