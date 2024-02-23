@@ -147,6 +147,9 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/universal7420-common/proprietary/vendor/firmware/bcm4358A3_V0083.0138_semco3rd.hcd:$(TARGET_COPY_OUT_VENDOR)/firmware/bcm4358A3_V0083.0138_semco3rd.hcd \
     vendor/samsung/universal7420-common/proprietary/vendor/firmware/bcm4358A3_V0083.0138.hcd:$(TARGET_COPY_OUT_VENDOR)/firmware/bcm4358A3_V0083.0138.hcd \
     vendor/samsung/universal7420-common/proprietary/vendor/firmware/bcm4358A3_V0083.0138_wisol.hcd:$(TARGET_COPY_OUT_VENDOR)/firmware/bcm4358A3_V0083.0138_wisol.hcd \
+    vendor/samsung/universal7420-common/proprietary/vendor/firmware/bcm4359B0_V0019.0000.hcd:$(TARGET_COPY_OUT_VENDOR)/firmware/bcm4359B0_V0019.0000.hcd \
+    vendor/samsung/universal7420-common/proprietary/vendor/firmware/bcm4359B1_V0105.0106.hcd:$(TARGET_COPY_OUT_VENDOR)/firmware/bcm4359B1_V0105.0106.hcd \
+    vendor/samsung/universal7420-common/proprietary/vendor/firmware/bcm4359B1_V0105.0106_wisol.hcd:$(TARGET_COPY_OUT_VENDOR)/firmware/bcm4359B1_V0105.0106_wisol.hcd \
     vendor/samsung/universal7420-common/proprietary/vendor/firmware/companion_2p2_master_setfile.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/companion_2p2_master_setfile.bin \
     vendor/samsung/universal7420-common/proprietary/vendor/firmware/companion_2p2_mode_setfile.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/companion_2p2_mode_setfile.bin \
     vendor/samsung/universal7420-common/proprietary/vendor/firmware/companion_fw_2p2_evt1.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/companion_fw_2p2_evt1.bin \
@@ -158,6 +161,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/universal7420-common/proprietary/vendor/firmware/fimc_is_fw2_imx240.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/fimc_is_fw2_imx240.bin \
     vendor/samsung/universal7420-common/proprietary/vendor/firmware/mfc_fw.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/mfc_fw.bin \
     vendor/samsung/universal7420-common/proprietary/vendor/firmware/nfc/sec_s3fwrn5p_firmware.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nfc/sec_s3fwrn5p_firmware.bin \
+    vendor/samsung/universal7420-common/proprietary/vendor/firmware/nfc/sec_s3fwrn5s_firmware.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nfc/sec_s3fwrn5s_firmware.bin \
+    vendor/samsung/universal7420-common/proprietary/vendor/firmware/nfc/sec_s3nrn81_firmware.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nfc/sec_s3nrn81_firmware.bin \
     vendor/samsung/universal7420-common/proprietary/vendor/firmware/ois_fw_dom.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/ois_fw_dom.bin \
     vendor/samsung/universal7420-common/proprietary/vendor/firmware/ois_fw_sec.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/ois_fw_sec.bin \
     vendor/samsung/universal7420-common/proprietary/vendor/firmware/seiren_fw_dram.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/seiren_fw_dram.bin \
