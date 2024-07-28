@@ -39,10 +39,12 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/zerofltexx/proprietary/vendor/app/mcRegistry/fffffffff0000000000000000000001b.tlbin:$(TARGET_COPY_OUT_VENDOR)/app/mcRegistry/fffffffff0000000000000000000001b.tlbin \
     vendor/samsung/zerofltexx/proprietary/vendor/app/mcRegistry/fffffffff0000000000000000000001e.tlbin:$(TARGET_COPY_OUT_VENDOR)/app/mcRegistry/fffffffff0000000000000000000001e.tlbin \
     vendor/samsung/zerofltexx/proprietary/vendor/bin/mcDriverDaemon:$(TARGET_COPY_OUT_VENDOR)/bin/mcDriverDaemon \
+    vendor/samsung/zerofltexx/proprietary/vendor/lib/hw/consumerir.exynos5.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/consumerir.exynos5.so \
     vendor/samsung/zerofltexx/proprietary/vendor/lib/libbauthserver.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbauthserver.so \
     vendor/samsung/zerofltexx/proprietary/vendor/lib/libbauthtzcommon.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbauthtzcommon.so \
     vendor/samsung/zerofltexx/proprietary/vendor/lib/libegis_fp_normal_sensor_test.so:$(TARGET_COPY_OUT_VENDOR)/lib/libegis_fp_normal_sensor_test.so \
     vendor/samsung/zerofltexx/proprietary/vendor/lib/libsynaFpSensorTestNwd.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsynaFpSensorTestNwd.so \
+    vendor/samsung/zerofltexx/proprietary/vendor/lib64/hw/consumerir.exynos5.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/consumerir.exynos5.so \
     vendor/samsung/zerofltexx/proprietary/vendor/lib64/libbauthserver.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbauthserver.so \
     vendor/samsung/zerofltexx/proprietary/vendor/lib64/libbauthtzcommon.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbauthtzcommon.so \
     vendor/samsung/zerofltexx/proprietary/vendor/lib64/libegis_fp_normal_sensor_test.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libegis_fp_normal_sensor_test.so \
@@ -191,11 +193,51 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/zerofltexx/proprietary/vendor/etc/nxp/mVoIPSec/Tx_ControlParams_WIDEBAND_SPEAKER.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/mVoIPSec/Tx_ControlParams_WIDEBAND_SPEAKER.txt \
     vendor/samsung/zerofltexx/proprietary/vendor/etc/nxp/mVoIPSec/Tx_ControlParams_WIDEBAND_WIRED_HEADPHONE.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/mVoIPSec/Tx_ControlParams_WIDEBAND_WIRED_HEADPHONE.txt \
     vendor/samsung/zerofltexx/proprietary/vendor/etc/nxp/mVoIPSec/Tx_ControlParams_WIDEBAND_WIRED_HEADSET.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/mVoIPSec/Tx_ControlParams_WIDEBAND_WIRED_HEADSET.txt \
-    vendor/samsung/zerofltexx/proprietary/vendor/lib/hw/nfc_nci.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/nfc_nci.default.so \
+    vendor/samsung/zerofltexx/proprietary/vendor/etc/wifi/bcmdhd_apsta.bin:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/bcmdhd_apsta.bin \
+    vendor/samsung/zerofltexx/proprietary/vendor/etc/wifi/bcmdhd_apsta.bin_a1:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/bcmdhd_apsta.bin_a1 \
+    vendor/samsung/zerofltexx/proprietary/vendor/etc/wifi/bcmdhd_ibss.bin:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/bcmdhd_ibss.bin \
+    vendor/samsung/zerofltexx/proprietary/vendor/etc/wifi/bcmdhd_ibss.bin_a1:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/bcmdhd_ibss.bin_a1 \
+    vendor/samsung/zerofltexx/proprietary/vendor/etc/wifi/bcmdhd_mfg.bin:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/bcmdhd_mfg.bin \
+    vendor/samsung/zerofltexx/proprietary/vendor/etc/wifi/bcmdhd_mfg.bin_a1:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/bcmdhd_mfg.bin_a1 \
+    vendor/samsung/zerofltexx/proprietary/vendor/etc/wifi/bcmdhd_sta.bin:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/bcmdhd_sta.bin \
+    vendor/samsung/zerofltexx/proprietary/vendor/etc/wifi/bcmdhd_sta.bin_a1:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/bcmdhd_sta.bin_a1 \
+    vendor/samsung/zerofltexx/proprietary/vendor/etc/wifi/cred.conf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/cred.conf \
+    vendor/samsung/zerofltexx/proprietary/vendor/etc/wifi/nvram_mfg.txt:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/nvram_mfg.txt \
+    vendor/samsung/zerofltexx/proprietary/vendor/etc/wifi/nvram_mfg.txt_a1:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/nvram_mfg.txt_a1 \
+    vendor/samsung/zerofltexx/proprietary/vendor/etc/wifi/nvram_mfg.txt_b85_a1:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/nvram_mfg.txt_b85_a1 \
+    vendor/samsung/zerofltexx/proprietary/vendor/etc/wifi/nvram_mfg.txt_murata:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/nvram_mfg.txt_murata \
+    vendor/samsung/zerofltexx/proprietary/vendor/etc/wifi/nvram_mfg.txt_murata_a1:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/nvram_mfg.txt_murata_a1 \
+    vendor/samsung/zerofltexx/proprietary/vendor/etc/wifi/nvram_mfg.txt_murata_b85_a1:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/nvram_mfg.txt_murata_b85_a1 \
+    vendor/samsung/zerofltexx/proprietary/vendor/etc/wifi/nvram_mfg.txt_wisol:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/nvram_mfg.txt_wisol \
+    vendor/samsung/zerofltexx/proprietary/vendor/etc/wifi/nvram_mfg.txt_wisol_a1:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/nvram_mfg.txt_wisol_a1 \
+    vendor/samsung/zerofltexx/proprietary/vendor/etc/wifi/nvram_mfg.txt_wisol_b85_a1:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/nvram_mfg.txt_wisol_b85_a1 \
+    vendor/samsung/zerofltexx/proprietary/vendor/etc/wifi/nvram_net.txt:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/nvram_net.txt \
+    vendor/samsung/zerofltexx/proprietary/vendor/etc/wifi/nvram_net.txt_a1:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/nvram_net.txt_a1 \
+    vendor/samsung/zerofltexx/proprietary/vendor/etc/wifi/nvram_net.txt_b85_a1:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/nvram_net.txt_b85_a1 \
+    vendor/samsung/zerofltexx/proprietary/vendor/etc/wifi/nvram_net.txt_murata:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/nvram_net.txt_murata \
+    vendor/samsung/zerofltexx/proprietary/vendor/etc/wifi/nvram_net.txt_murata_a1:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/nvram_net.txt_murata_a1 \
+    vendor/samsung/zerofltexx/proprietary/vendor/etc/wifi/nvram_net.txt_murata_b85_a1:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/nvram_net.txt_murata_b85_a1 \
+    vendor/samsung/zerofltexx/proprietary/vendor/etc/wifi/nvram_net.txt_wisol:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/nvram_net.txt_wisol \
+    vendor/samsung/zerofltexx/proprietary/vendor/etc/wifi/nvram_net.txt_wisol_a1:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/nvram_net.txt_wisol_a1 \
+    vendor/samsung/zerofltexx/proprietary/vendor/etc/wifi/nvram_net.txt_wisol_b85_a1:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/nvram_net.txt_wisol_b85_a1 \
+    vendor/samsung/zerofltexx/proprietary/vendor/firmware/companion_2p2_master_setfile.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/companion_2p2_master_setfile.bin \
+    vendor/samsung/zerofltexx/proprietary/vendor/firmware/companion_2p2_mode_setfile.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/companion_2p2_mode_setfile.bin \
+    vendor/samsung/zerofltexx/proprietary/vendor/firmware/companion_fw_2p2_evt1.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/companion_fw_2p2_evt1.bin \
+    vendor/samsung/zerofltexx/proprietary/vendor/firmware/companion_fw_imx240_evt1.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/companion_fw_imx240_evt1.bin \
+    vendor/samsung/zerofltexx/proprietary/vendor/firmware/companion_imx240_master_setfile.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/companion_imx240_master_setfile.bin \
+    vendor/samsung/zerofltexx/proprietary/vendor/firmware/companion_imx240_mode_setfile.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/companion_imx240_mode_setfile.bin \
+    vendor/samsung/zerofltexx/proprietary/vendor/firmware/fimc_is_fw2.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/fimc_is_fw2.bin \
+    vendor/samsung/zerofltexx/proprietary/vendor/firmware/fimc_is_fw2_2p2.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/fimc_is_fw2_2p2.bin \
+    vendor/samsung/zerofltexx/proprietary/vendor/firmware/fimc_is_fw2_imx240.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/fimc_is_fw2_imx240.bin \
+    vendor/samsung/zerofltexx/proprietary/vendor/firmware/ois_fw_dom.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/ois_fw_dom.bin \
+    vendor/samsung/zerofltexx/proprietary/vendor/firmware/ois_fw_sec.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/ois_fw_sec.bin \
+    vendor/samsung/zerofltexx/proprietary/vendor/firmware/setfile_2p2.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/setfile_2p2.bin \
+    vendor/samsung/zerofltexx/proprietary/vendor/firmware/setfile_4e6.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/setfile_4e6.bin \
+    vendor/samsung/zerofltexx/proprietary/vendor/firmware/setfile_6b2.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/setfile_6b2.bin \
+    vendor/samsung/zerofltexx/proprietary/vendor/firmware/setfile_imx240.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/setfile_imx240.bin \
     vendor/samsung/zerofltexx/proprietary/vendor/lib/soundfx/libLifevibes_lvverx.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libLifevibes_lvverx.so \
     vendor/samsung/zerofltexx/proprietary/vendor/lib/soundfx/libLifevibes_lvvetx.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libLifevibes_lvvetx.so \
     vendor/samsung/zerofltexx/proprietary/vendor/lib/libMcClient.so:$(TARGET_COPY_OUT_VENDOR)/lib/libMcClient.so \
     vendor/samsung/zerofltexx/proprietary/vendor/lib/libMcRegistry.so:$(TARGET_COPY_OUT_VENDOR)/lib/libMcRegistry.so \
-    vendor/samsung/zerofltexx/proprietary/vendor/lib64/hw/nfc_nci.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/nfc_nci.default.so \
     vendor/samsung/zerofltexx/proprietary/vendor/lib64/libMcClient.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libMcClient.so \
     vendor/samsung/zerofltexx/proprietary/vendor/lib64/libMcRegistry.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libMcRegistry.so
