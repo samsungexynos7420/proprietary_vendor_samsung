@@ -40,6 +40,18 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/zeroflte/proprietary/vendor/app/mcRegistry/fffffffff0000000000000000000001e.tlbin:$(TARGET_COPY_OUT_VENDOR)/app/mcRegistry/fffffffff0000000000000000000001e.tlbin \
     vendor/samsung/zeroflte/proprietary/vendor/bin/mcDriverDaemon:$(TARGET_COPY_OUT_VENDOR)/bin/mcDriverDaemon \
     vendor/samsung/zeroflte/proprietary/etc/firmware/audience-es804-fw.bin:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/audience-es804-fw.bin \
+    vendor/samsung/zeroflte/proprietary/etc/firmware/clearwater-dsp3-tx-swb-interview.bin:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/clearwater-dsp3-tx-swb-interview.bin \
+    vendor/samsung/zeroflte/proprietary/etc/firmware/clearwaterc-dsp1-trace.wmfw:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/clearwaterc-dsp1-trace.wmfw \
+    vendor/samsung/zeroflte/proprietary/etc/firmware/clearwaterc-dsp2-tx-nb.wmfw:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/clearwaterc-dsp2-tx-nb.wmfw \
+    vendor/samsung/zeroflte/proprietary/etc/firmware/clearwaterc-dsp2-tx-swb.wmfw:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/clearwaterc-dsp2-tx-swb.wmfw \
+    vendor/samsung/zeroflte/proprietary/etc/firmware/clearwaterc-dsp2-tx-wb.wmfw:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/clearwaterc-dsp2-tx-wb.wmfw \
+    vendor/samsung/zeroflte/proprietary/etc/firmware/clearwaterc-dsp3-tx-nb.wmfw:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/clearwaterc-dsp3-tx-nb.wmfw \
+    vendor/samsung/zeroflte/proprietary/etc/firmware/clearwaterc-dsp3-tx-swb.wmfw:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/clearwaterc-dsp3-tx-swb.wmfw \
+    vendor/samsung/zeroflte/proprietary/etc/firmware/clearwaterc-dsp3-tx-wb.wmfw:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/clearwaterc-dsp3-tx-wb.wmfw \
+    vendor/samsung/zeroflte/proprietary/etc/firmware/clearwaterc-dsp4-rx-anc-nb.wmfw:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/clearwaterc-dsp4-rx-anc-nb.wmfw \
+    vendor/samsung/zeroflte/proprietary/etc/firmware/clearwaterc-dsp4-rx-anc-wb.wmfw:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/clearwaterc-dsp4-rx-anc-wb.wmfw \
+    vendor/samsung/zeroflte/proprietary/etc/firmware/clearwaterc-dsp5-dsm.wmfw:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/clearwaterc-dsp5-dsm.wmfw \
+    vendor/samsung/zeroflte/proprietary/etc/firmware/clearwaterc-dsp6-ez2-control.wmfw:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/clearwaterc-dsp6-ez2-control.wmfw \
     vendor/samsung/zeroflte/proprietary/vendor/lib/hw/consumerir.exynos5.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/consumerir.exynos5.so \
     vendor/samsung/zeroflte/proprietary/vendor/lib/hw/sensorhubs.universal7420.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/sensorhubs.universal7420.so \
     vendor/samsung/zeroflte/proprietary/vendor/lib/hw/sensors.universal7420.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/sensors.universal7420.so \

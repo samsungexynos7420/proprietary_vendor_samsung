@@ -14,9 +14,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/universal7420-common/proprietary/bin/lpm:$(TARGET_COPY_OUT_SYSTEM)/bin/lpm \
     vendor/samsung/universal7420-common/proprietary/bin/move_widevine_data.sh:$(TARGET_COPY_OUT_SYSTEM)/bin/move_widevine_data.sh \
     vendor/samsung/universal7420-common/proprietary/etc/firmware/audience-es705-fw.bin:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/audience-es705-fw.bin \
-    vendor/samsung/universal7420-common/proprietary/etc/firmware/audience-es804-fw.bin:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/audience-es804-fw.bin \
     vendor/samsung/universal7420-common/proprietary/etc/firmware/clearwater-dsp3-tx-nb.bin:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/clearwater-dsp3-tx-nb.bin \
-    vendor/samsung/universal7420-common/proprietary/etc/firmware/clearwater-dsp3-tx-swb-interview.bin:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/clearwater-dsp3-tx-swb-interview.bin \
     vendor/samsung/universal7420-common/proprietary/etc/firmware/clearwater-dsp3-tx-wb.bin:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/clearwater-dsp3-tx-wb.bin \
     vendor/samsung/universal7420-common/proprietary/etc/firmware/clearwater-dsp4-rx-anc-nb.bin:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/clearwater-dsp4-rx-anc-nb.bin \
     vendor/samsung/universal7420-common/proprietary/etc/firmware/clearwater-dsp4-rx-anc-wb.bin:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/clearwater-dsp4-rx-anc-wb.bin \
@@ -31,17 +29,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/universal7420-common/proprietary/etc/firmware/clearwatera-dsp4-rx-anc-wb.wmfw:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/clearwatera-dsp4-rx-anc-wb.wmfw \
     vendor/samsung/universal7420-common/proprietary/etc/firmware/clearwatera-dsp5-dsm.wmfw:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/clearwatera-dsp5-dsm.wmfw \
     vendor/samsung/universal7420-common/proprietary/etc/firmware/clearwatera-dsp6-ez2-control.wmfw:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/clearwatera-dsp6-ez2-control.wmfw \
-    vendor/samsung/universal7420-common/proprietary/etc/firmware/clearwaterc-dsp1-trace.wmfw:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/clearwaterc-dsp1-trace.wmfw \
-    vendor/samsung/universal7420-common/proprietary/etc/firmware/clearwaterc-dsp2-tx-nb.wmfw:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/clearwaterc-dsp2-tx-nb.wmfw \
-    vendor/samsung/universal7420-common/proprietary/etc/firmware/clearwaterc-dsp2-tx-swb.wmfw:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/clearwaterc-dsp2-tx-swb.wmfw \
-    vendor/samsung/universal7420-common/proprietary/etc/firmware/clearwaterc-dsp2-tx-wb.wmfw:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/clearwaterc-dsp2-tx-wb.wmfw \
-    vendor/samsung/universal7420-common/proprietary/etc/firmware/clearwaterc-dsp3-tx-nb.wmfw:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/clearwaterc-dsp3-tx-nb.wmfw \
-    vendor/samsung/universal7420-common/proprietary/etc/firmware/clearwaterc-dsp3-tx-swb.wmfw:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/clearwaterc-dsp3-tx-swb.wmfw \
-    vendor/samsung/universal7420-common/proprietary/etc/firmware/clearwaterc-dsp3-tx-wb.wmfw:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/clearwaterc-dsp3-tx-wb.wmfw \
-    vendor/samsung/universal7420-common/proprietary/etc/firmware/clearwaterc-dsp4-rx-anc-nb.wmfw:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/clearwaterc-dsp4-rx-anc-nb.wmfw \
-    vendor/samsung/universal7420-common/proprietary/etc/firmware/clearwaterc-dsp4-rx-anc-wb.wmfw:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/clearwaterc-dsp4-rx-anc-wb.wmfw \
-    vendor/samsung/universal7420-common/proprietary/etc/firmware/clearwaterc-dsp5-dsm.wmfw:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/clearwaterc-dsp5-dsm.wmfw \
-    vendor/samsung/universal7420-common/proprietary/etc/firmware/clearwaterc-dsp6-ez2-control.wmfw:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/clearwaterc-dsp6-ez2-control.wmfw \
     vendor/samsung/universal7420-common/proprietary/etc/firmware/florida-dsp1-edac.bin:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/florida-dsp1-edac.bin \
     vendor/samsung/universal7420-common/proprietary/etc/firmware/florida-dsp1-edac.wmfw:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/florida-dsp1-edac.wmfw \
     vendor/samsung/universal7420-common/proprietary/etc/firmware/florida-dsp2-tx-fb-meeting.bin:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/florida-dsp2-tx-fb-meeting.bin \
