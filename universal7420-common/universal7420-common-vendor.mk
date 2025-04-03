@@ -51,8 +51,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/universal7420-common/proprietary/etc/firmware/florida-dsp4-rx-anc-nb.wmfw:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/florida-dsp4-rx-anc-nb.wmfw \
     vendor/samsung/universal7420-common/proprietary/etc/firmware/florida-dsp4-rx-anc-wb.bin:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/florida-dsp4-rx-anc-wb.bin \
     vendor/samsung/universal7420-common/proprietary/etc/firmware/florida-dsp4-rx-anc-wb.wmfw:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/florida-dsp4-rx-anc-wb.wmfw \
-    vendor/samsung/universal7420-common/proprietary/etc/nfc/sec_s3fwrn5p_rfreg.bin:$(TARGET_COPY_OUT_SYSTEM)/etc/nfc/sec_s3fwrn5p_rfreg.bin \
-    vendor/samsung/universal7420-common/proprietary/etc/nfc/sec_s3fwrn5s_rfreg.bin:$(TARGET_COPY_OUT_SYSTEM)/etc/nfc/sec_s3fwrn5s_rfreg.bin \
     vendor/samsung/universal7420-common/proprietary/vendor/lib/egl/libGLES_mali.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libGLES_mali.so \
     vendor/samsung/universal7420-common/proprietary/vendor/lib/hw/camera.vendor.exynos5.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/camera.vendor.exynos5.so \
     vendor/samsung/universal7420-common/proprietary/lib/libaudioroute.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libaudioroute.so \
@@ -104,6 +102,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/universal7420-common/proprietary/vendor/etc/init/init.vendor.rilchip.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.vendor.rilchip.rc \
     vendor/samsung/universal7420-common/proprietary/vendor/etc/init/init.vendor.rilcommon.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.vendor.rilcommon.rc \
     vendor/samsung/universal7420-common/proprietary/vendor/etc/mtu-conf.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mtu-conf.xml \
+    vendor/samsung/universal7420-common/proprietary/vendor/etc/nfc/sec_s3fwrn5p_rfreg.bin:$(TARGET_COPY_OUT_VENDOR)/etc/nfc/sec_s3fwrn5p_rfreg.bin \
+    vendor/samsung/universal7420-common/proprietary/vendor/etc/nfc/sec_s3fwrn5s_rfreg.bin:$(TARGET_COPY_OUT_VENDOR)/etc/nfc/sec_s3fwrn5s_rfreg.bin \
     vendor/samsung/universal7420-common/proprietary/vendor/etc/pdpcnt-conf.xml:$(TARGET_COPY_OUT_VENDOR)/etc/pdpcnt-conf.xml \
     vendor/samsung/universal7420-common/proprietary/vendor/etc/plmn_delta.bin:$(TARGET_COPY_OUT_VENDOR)/etc/plmn_delta.bin \
     vendor/samsung/universal7420-common/proprietary/vendor/etc/plmn_delta_attaio.bin:$(TARGET_COPY_OUT_VENDOR)/etc/plmn_delta_attaio.bin \
