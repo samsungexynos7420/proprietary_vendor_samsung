@@ -123,7 +123,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/universal7420-common/proprietary/vendor/firmware/nfc/sec_s3fwrn5s_firmware.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nfc/sec_s3fwrn5s_firmware.bin \
     vendor/samsung/universal7420-common/proprietary/vendor/firmware/seiren_fw_dram.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/seiren_fw_dram.bin \
     vendor/samsung/universal7420-common/proprietary/vendor/firmware/seiren_fw_sram.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/seiren_fw_sram.bin \
-    vendor/samsung/universal7420-common/proprietary/vendor/lib/hw/nfc_nci.universal7420.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/nfc_nci.universal7420.so \
     vendor/samsung/universal7420-common/proprietary/vendor/lib/libengmode_client.so:$(TARGET_COPY_OUT_VENDOR)/lib/libengmode_client.so \
     vendor/samsung/universal7420-common/proprietary/vendor/lib/libprotobuf-cpp-full-3.9.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/libprotobuf-cpp-full-3.9.1.so \
     vendor/samsung/universal7420-common/proprietary/vendor/lib/libril.so:$(TARGET_COPY_OUT_VENDOR)/lib/libril.so \
@@ -140,7 +139,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/universal7420-common/proprietary/vendor/lib/vendor.samsung.hardware.radio.channel@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.hardware.radio.channel@2.0.so \
     vendor/samsung/universal7420-common/proprietary/vendor/lib/vendor.samsung.hardware.radio@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.hardware.radio@2.0.so \
     vendor/samsung/universal7420-common/proprietary/vendor/lib/vendor.samsung.hardware.radio@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.hardware.radio@2.1.so \
-    vendor/samsung/universal7420-common/proprietary/vendor/lib64/hw/nfc_nci.universal7420.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/nfc_nci.universal7420.so \
     vendor/samsung/universal7420-common/proprietary/vendor/lib64/libengmode_client.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libengmode_client.so \
     vendor/samsung/universal7420-common/proprietary/vendor/lib64/libprotobuf-cpp-full-3.9.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libprotobuf-cpp-full-3.9.1.so \
     vendor/samsung/universal7420-common/proprietary/vendor/lib64/libril.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libril.so \
