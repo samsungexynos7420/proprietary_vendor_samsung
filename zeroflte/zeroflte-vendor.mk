@@ -6,7 +6,7 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/samsung/zeroflte
 
 PRODUCT_COPY_FILES += \
-    vendor/samsung/zeroflte/proprietary/vendor/app/FFFFFFFF000000000000000000000001.drbin:$(TARGET_COPY_OUT_VENDOR)/app/FFFFFFFF000000000000000000000001.drbin \
+    vendor/samsung/zeroflte/proprietary/vendor/app/mcRegistry/FFFFFFFF000000000000000000000001.drbin:$(TARGET_COPY_OUT_VENDOR)/app/mcRegistry/FFFFFFFF000000000000000000000001.drbin \
     vendor/samsung/zeroflte/proprietary/vendor/app/mcRegistry/00060308060501020000000000000000.tlbin:$(TARGET_COPY_OUT_VENDOR)/app/mcRegistry/00060308060501020000000000000000.tlbin \
     vendor/samsung/zeroflte/proprietary/vendor/app/mcRegistry/07010000000000000000000000000000.tlbin:$(TARGET_COPY_OUT_VENDOR)/app/mcRegistry/07010000000000000000000000000000.tlbin \
     vendor/samsung/zeroflte/proprietary/vendor/app/mcRegistry/07060000000000000000000000000000.tlbin:$(TARGET_COPY_OUT_VENDOR)/app/mcRegistry/07060000000000000000000000000000.tlbin \
@@ -17,7 +17,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/zeroflte/proprietary/vendor/app/mcRegistry/ffffffff00000000000000000000000b.tlbin:$(TARGET_COPY_OUT_VENDOR)/app/mcRegistry/ffffffff00000000000000000000000b.tlbin \
     vendor/samsung/zeroflte/proprietary/vendor/app/mcRegistry/ffffffff00000000000000000000000c.tlbin:$(TARGET_COPY_OUT_VENDOR)/app/mcRegistry/ffffffff00000000000000000000000c.tlbin \
     vendor/samsung/zeroflte/proprietary/vendor/app/mcRegistry/ffffffff00000000000000000000000d.tlbin:$(TARGET_COPY_OUT_VENDOR)/app/mcRegistry/ffffffff00000000000000000000000d.tlbin \
-    vendor/samsung/zeroflte/proprietary/vendor/app/mcRegistry/ffffffff00000000000000000000000e.tlbin:$(TARGET_COPY_OUT_VENDOR)/app/mcRegistry/ffffffff00000000000000000000000e.tlbin \
     vendor/samsung/zeroflte/proprietary/vendor/app/mcRegistry/ffffffff00000000000000000000000f.tlbin:$(TARGET_COPY_OUT_VENDOR)/app/mcRegistry/ffffffff00000000000000000000000f.tlbin \
     vendor/samsung/zeroflte/proprietary/vendor/app/mcRegistry/ffffffff000000000000000000000012.tlbin:$(TARGET_COPY_OUT_VENDOR)/app/mcRegistry/ffffffff000000000000000000000012.tlbin \
     vendor/samsung/zeroflte/proprietary/vendor/app/mcRegistry/ffffffff000000000000000000000013.tlbin:$(TARGET_COPY_OUT_VENDOR)/app/mcRegistry/ffffffff000000000000000000000013.tlbin \
@@ -38,7 +37,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/zeroflte/proprietary/vendor/app/mcRegistry/ffffffffd00000000000000000000017.tlbin:$(TARGET_COPY_OUT_VENDOR)/app/mcRegistry/ffffffffd00000000000000000000017.tlbin \
     vendor/samsung/zeroflte/proprietary/vendor/app/mcRegistry/fffffffff0000000000000000000001b.tlbin:$(TARGET_COPY_OUT_VENDOR)/app/mcRegistry/fffffffff0000000000000000000001b.tlbin \
     vendor/samsung/zeroflte/proprietary/vendor/app/mcRegistry/fffffffff0000000000000000000001e.tlbin:$(TARGET_COPY_OUT_VENDOR)/app/mcRegistry/fffffffff0000000000000000000001e.tlbin \
-    vendor/samsung/zeroflte/proprietary/vendor/bin/mcDriverDaemon:$(TARGET_COPY_OUT_VENDOR)/bin/mcDriverDaemon \
     vendor/samsung/zeroflte/proprietary/etc/firmware/audience-es804-fw.bin:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/audience-es804-fw.bin \
     vendor/samsung/zeroflte/proprietary/etc/firmware/clearwater-dsp3-tx-swb-interview.bin:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/clearwater-dsp3-tx-swb-interview.bin \
     vendor/samsung/zeroflte/proprietary/etc/firmware/clearwaterc-dsp1-trace.wmfw:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/clearwaterc-dsp1-trace.wmfw \
@@ -55,18 +53,12 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/zeroflte/proprietary/vendor/lib/hw/consumerir.exynos5.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/consumerir.exynos5.so \
     vendor/samsung/zeroflte/proprietary/vendor/lib/hw/sensorhubs.universal7420.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/sensorhubs.universal7420.so \
     vendor/samsung/zeroflte/proprietary/vendor/lib/hw/sensors.universal7420.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/sensors.universal7420.so \
-    vendor/samsung/zeroflte/proprietary/vendor/lib/libbauthserver.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbauthserver.so \
-    vendor/samsung/zeroflte/proprietary/vendor/lib/libbauthtzcommon.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbauthtzcommon.so \
-    vendor/samsung/zeroflte/proprietary/vendor/lib/libegis_fp_normal_sensor_test.so:$(TARGET_COPY_OUT_VENDOR)/lib/libegis_fp_normal_sensor_test.so \
-    vendor/samsung/zeroflte/proprietary/vendor/lib/libsynaFpSensorTestNwd.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsynaFpSensorTestNwd.so \
     vendor/samsung/zeroflte/proprietary/vendor/lib64/hw/consumerir.exynos5.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/consumerir.exynos5.so \
     vendor/samsung/zeroflte/proprietary/vendor/lib64/hw/sensorhubs.universal7420.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/sensorhubs.universal7420.so \
     vendor/samsung/zeroflte/proprietary/vendor/lib64/hw/sensors.universal7420.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/sensors.universal7420.so \
-    vendor/samsung/zeroflte/proprietary/vendor/lib64/libbauthserver.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbauthserver.so \
-    vendor/samsung/zeroflte/proprietary/vendor/lib64/libbauthtzcommon.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbauthtzcommon.so \
-    vendor/samsung/zeroflte/proprietary/vendor/lib64/libegis_fp_normal_sensor_test.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libegis_fp_normal_sensor_test.so \
-    vendor/samsung/zeroflte/proprietary/vendor/lib64/libsynaFpSensorTestNwd.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsynaFpSensorTestNwd.so \
     vendor/samsung/zeroflte/proprietary/vendor/etc/sensor/lhd.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensor/lhd.conf \
+    vendor/samsung/zeroflte/proprietary/vendor/app/mcRegistry/ffffffff00000000000000000000000e.tlbin:$(TARGET_COPY_OUT_VENDOR)/app/mcRegistry/ffffffff00000000000000000000000e.tlbin \
+    vendor/samsung/zeroflte/proprietary/vendor/bin/mcDriverDaemon:$(TARGET_COPY_OUT_VENDOR)/bin/mcDriverDaemon \
     vendor/samsung/zeroflte/proprietary/vendor/etc/init/init.wifi.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.wifi.rc \
     vendor/samsung/zeroflte/proprietary/vendor/etc/nxp/AzControlParams_SPEAKER.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/AzControlParams_SPEAKER.txt \
     vendor/samsung/zeroflte/proprietary/vendor/etc/nxp/BargeIn/Tx_ControlParams_WIDEBAND_ANALOG_DOCK.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/BargeIn/Tx_ControlParams_WIDEBAND_ANALOG_DOCK.txt \
@@ -258,7 +250,15 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/zeroflte/proprietary/vendor/lib/soundfx/libLifevibes_lvvetx.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libLifevibes_lvvetx.so \
     vendor/samsung/zeroflte/proprietary/vendor/lib/libMcClient.so:$(TARGET_COPY_OUT_VENDOR)/lib/libMcClient.so \
     vendor/samsung/zeroflte/proprietary/vendor/lib/libMcRegistry.so:$(TARGET_COPY_OUT_VENDOR)/lib/libMcRegistry.so \
+    vendor/samsung/zeroflte/proprietary/vendor/lib/libbauthserver.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbauthserver.so \
+    vendor/samsung/zeroflte/proprietary/vendor/lib/libbauthtzcommon.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbauthtzcommon.so \
+    vendor/samsung/zeroflte/proprietary/vendor/lib/libegis_fp_normal_sensor_test.so:$(TARGET_COPY_OUT_VENDOR)/lib/libegis_fp_normal_sensor_test.so \
     vendor/samsung/zeroflte/proprietary/vendor/lib/libgf_in_system_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgf_in_system_lib.so \
+    vendor/samsung/zeroflte/proprietary/vendor/lib/libsynaFpSensorTestNwd.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsynaFpSensorTestNwd.so \
     vendor/samsung/zeroflte/proprietary/vendor/lib64/libMcClient.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libMcClient.so \
     vendor/samsung/zeroflte/proprietary/vendor/lib64/libMcRegistry.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libMcRegistry.so \
-    vendor/samsung/zeroflte/proprietary/vendor/lib64/libgf_in_system_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgf_in_system_lib.so
+    vendor/samsung/zeroflte/proprietary/vendor/lib64/libbauthserver.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbauthserver.so \
+    vendor/samsung/zeroflte/proprietary/vendor/lib64/libbauthtzcommon.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbauthtzcommon.so \
+    vendor/samsung/zeroflte/proprietary/vendor/lib64/libegis_fp_normal_sensor_test.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libegis_fp_normal_sensor_test.so \
+    vendor/samsung/zeroflte/proprietary/vendor/lib64/libgf_in_system_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgf_in_system_lib.so \
+    vendor/samsung/zeroflte/proprietary/vendor/lib64/libsynaFpSensorTestNwd.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsynaFpSensorTestNwd.so

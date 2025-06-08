@@ -6,7 +6,7 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/samsung/noblelte
 
 PRODUCT_COPY_FILES += \
-    vendor/samsung/noblelte/proprietary/vendor/app/FFFFFFFF000000000000000000000001.drbin:$(TARGET_COPY_OUT_VENDOR)/app/FFFFFFFF000000000000000000000001.drbin \
+    vendor/samsung/noblelte/proprietary/vendor/app/mcRegistry/FFFFFFFF000000000000000000000001.drbin:$(TARGET_COPY_OUT_VENDOR)/app/mcRegistry/FFFFFFFF000000000000000000000001.drbin \
     vendor/samsung/noblelte/proprietary/vendor/app/mcRegistry/00060308060501020000000000000000.tlbin:$(TARGET_COPY_OUT_VENDOR)/app/mcRegistry/00060308060501020000000000000000.tlbin \
     vendor/samsung/noblelte/proprietary/vendor/app/mcRegistry/07010000000000000000000000000000.tlbin:$(TARGET_COPY_OUT_VENDOR)/app/mcRegistry/07010000000000000000000000000000.tlbin \
     vendor/samsung/noblelte/proprietary/vendor/app/mcRegistry/07060000000000000000000000000000.tlbin:$(TARGET_COPY_OUT_VENDOR)/app/mcRegistry/07060000000000000000000000000000.tlbin \
